@@ -9,8 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.2.4"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",
@@ -18,5 +21,9 @@
     "@vitejs/plugin-react-swc": "^3.0.0",
     "typescript": "^4.9.3",
     "vite": "^4.0.0"
-  }
+  },
+  "main": "index.js",
+  "repository": "git@github.com:danranges/todo-tstw.git",
+  "author": "Dan Ranges <danranges@gmail.com>",
+  "license": "MIT"
 }
